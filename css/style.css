@@ -7,12 +7,15 @@ body{
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
 }
 .container{
     width: 870px;
     background-color: #ffffff;
     padding: 30px;
+    margin-bottom: 21px;
 }
 .top-players{
     margin-bottom: 30px;
@@ -72,3 +75,18 @@ font: size 16px;
     text-decoration: none;
     color: goldenrod;
     }
+
+    .course .course-img  img{
+        width: 224px;
+        height: 104px;
+    }
+    .courses{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap:24px ;
+    }
+     .course-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } 
